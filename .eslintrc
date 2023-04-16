@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "error",
+    "no-console": 1
+  },
+  "ignorePatterns": ["*.js", "*.mdx", "dist/*", "jest.config.ts"]
+}
