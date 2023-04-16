@@ -15,11 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   body {
-    background: ${(props) => props.theme.colors.background};
-    color: ${(props) => props.theme.colors.text};
-    font-size: ${(props) => props.theme.fontSizes.large}
-    -webkit-font-smoothing: antialiased;
-    height: 100vh;
+
   }
   body, input, textarea, button {
     font-family: 'Poppins', sans-serif;
