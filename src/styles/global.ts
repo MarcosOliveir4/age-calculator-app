@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+  :root {
+    --purple: #854DFF;
+    --black: #151515;
+  }
   * {
     margin: 0;
     padding: 0;
@@ -15,7 +19,9 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   body {
-
+    background: #F0F0F0;
+    -webkit-font-smoothing: antialiased;
+    height: 100vh;
   }
   body, input, textarea, button {
     font-family: 'Poppins', sans-serif;

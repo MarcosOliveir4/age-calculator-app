@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DisplayLabel /> should render snapshot 1`] = `
+<div
+  class="sc-beqWaB gXTDLZ"
+  data-testid="display"
+>
+  <span
+    class="sc-gueYoa eaFbDW"
+    color="--purple"
+    data-testid="display-value"
+  >
+    22
+  </span>
+  <span
+    class="sc-gueYoa hReXcv"
+    color="--black"
+    data-testid="display-label"
+  >
+    years
+  </span>
+</div>
+`;
